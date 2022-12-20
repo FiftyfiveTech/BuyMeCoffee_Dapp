@@ -2,7 +2,7 @@
 
 # Buy me crypto coffee
 
-This is Dapp where any user can donate and contribute to artist by buying coffee for them with any message they want to give.
+This is Dapp where any user can donate and contribute to artist by buying coffee for them with any message they want to give and only owner can pull out contract ether.
 
 # Prerequisite
 You should have following installed on your system:
