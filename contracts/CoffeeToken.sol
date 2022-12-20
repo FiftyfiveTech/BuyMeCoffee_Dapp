@@ -34,7 +34,7 @@ contract CoffeeToken is ERC20 {
 
     function withdraw(uint256 _amount) public payable {
         // Burn CoffeeTokens from msg sender
-        require(balanceOf(msg.sender) >= _amount);
+        require(msg.sender == admin);
         _burn(msg.sender, _amount);
         payable(msg.sender).transfer(_amount);
     }
